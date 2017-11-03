@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+<body>
+
+<p>Click the button to wait 3 seconds, then alert "Hello".</p>
+
+<button class="popUp">Try it</button>
+<var>5</var>
+<var>6</var>
+
+<script>
+$(document).ready(function(){
+ $(".popUp").click(function(){
+    setTimeout(function(){alert("hello"); }, 3000);
+});
+});
+
+</script>
+
+</body>
+</html>

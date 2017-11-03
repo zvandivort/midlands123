@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="C:\Users\User\Desktop\codes for html\style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href="https://coolors.co/861657-a64253-d56aa0-bbdbb4-fcf0cc">
+<script src="myjava.js"></script>
+<script>
+
+  $(document).ready(function(){
+  $(".onb").click(function(){
+      $(".on").text("Not Available");
+      $(".on").css("background-color","red");
+  });
+});
+
+$(document).ready(function(){
+  $(".dcb").click(function(){
+      $(".dc").text("OFF YOU GO!!!!");
+      $(".dc").css("background-color","green");
+  });
+});
+
+$(document).ready(function(){
+  $(".sdcb").click(function(){
+      $(".sdc").text("OFF YOU GO!!!!");
+      $(".sdc").css("background-color","green");
+  });
+});
+
+$(document).ready(function(){
+  $(".vcb").click(function(){
+      $(".vc").text("OFF YOU GO!!!!");
+      $(".vc").css("background-color","green");
+      var toy = 28.63;
+var taxes = 0.07;
+var delivery = 3.50;
+var packa = 5.00;
+var total = (toy*taxes);
+var cost = (delivery+packa);
+var toatalCost=(total+cost);
+
+cost=toy+delivery+packa;
+toy=(cost*taxes)+cost;
+
+console.log(alert(toy.toFixed(2)))
+  });
+});
+
+$(document).ready(function(){
+  $(".btn").click(function(){
+      $(".btn").hide();
+      $("#sales").text("Call For More Info");
+  });
+});
+
+$(document).ready(function(){
+  $(".sleepy").click(function(){
+      $(".sleepy").hide();
+      $(".tired").text("Call For More Info");
+  });
+});
+
+
+$(function() {
+    $(".boxed").on("click", function() {
+      alert(`I WANT TO DIE IN A FIRE`);
+      $('.boxed').on('click', function (event) {
+    event.preventDefault();
+    $('.ugh').addClass('active');
+});
+
+    });
+  });
+</script>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Welcome Amtrak Passengers</h1>
+</div>
+
+
+<div class="row">
+
+<div class="col-3 col-m-3 menu">
+  <ul>
+    <li>The Train</li>
+    <li>The City</li>
+    <li>The Mountains</li>
+    <li>The Food</li>
+  </ul>
+</div>
+
+<div class="col-6 col-m-9">
+    <table class="table table-inverse">
+        <table class="table table-inverse">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Destination</th>
+                <th>Price</th>
+                <th>Availability</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Omaha, Nebraska</td>
+                <td class="on">$50</td>
+                <td><button class="onb">Check Availablility</button></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Denver, Colorado</td>
+                <td class="dc">$50</td>
+                <td><button class="dcb">Check Availablility</button></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>San Diego, California</td>
+                <td class="sdc">$50</td>
+                <td><button class="sdcb">Check Availablility</button></td>
+              </tr>
+
+              <tr>
+                <th scope="row">4</th>
+                <td> Vancouver, Canada</td>
+                <td class="vc">$50</td>
+                <td><button class="vcb">Check Availablility</button></td>
+              </tr>
+            </tbody>
+          </table>
+    </table>
+
+
+          <div class="row ugh">
+              <div class="column" style="background-color:rgb(243, 131, 131);">
+                <h2>The Train</h2>
+                <p>I dont know what to put here because im running low on time.</p>
+              </div>
+              <div class="column" style="background-color:#bbb;">
+                <h2>Train Cars</h2>
+                <p>I know nothing about train cars</p>
+              </div>
+              <div class="column" style="background-color:rgb(4, 153, 29);">
+                <h2>Thomas The Vape Train</h2>
+                <p>Welcome Thomas The Train</p>
+              
+              </div>
+            </div>
+  </div>
+
+<div class="col-2 col-m-12">
+  <div class="aside">
+    <h1>Sale Promo</h1>
+    <p id="sales">Very fast</p>
+    <button class="btn">Click For Message</button>
+    <h2>Where?</h2>
+    <p>You will be traveling from Omaha, NE to Denver, CO.</p>
+    <button class="sleepy">I want to go home
+      <p id="tired"></p>
+    </button>
+    <h2>Price?</h2>
+    <p>$50? Yes, that is it. Try this experience for yourself.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>I need something cool down here</p>
+</div>
+
+</body>
+</html>

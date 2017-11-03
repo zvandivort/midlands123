@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+#hello{
+        background: gray;
+        color: blue;
+        width: 900px;
+        height: 600px
+}
+
+.ticket{
+        text-align:center;
+        font-family: verdana;
+        background-color: black;
+        color: rgb(255, 115, 0);
+}
+
+.info{
+    font:35px;
+    color: white;
+    background:aqua    
+}
+
+.notes{
+        color: white;
+        font-size: 30px;
+        border-radius: 10px;
+        margin-top: 10px;
+}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+
+
+$(document).ready(function(){
+$('.ticket').on('hover', function() {
+  var midland = $('<h1>Call 1-555-jquery-air to book this tour</h1>');
+  $('.notes').append(midland);
+  $('button').remove();
+});
+});
+
+</script>
+
+</head>
+
+<body>
+
+        <div id="hello">
+                <h1>Guided Tours</h1>
+                <ul>
+                  <li class="ticket">
+                    <a>Tokyo, Paris</a>
+                    <span class="info">$1,899 for 7 nights</span>
+                    <button class="notes">buy ticket</button>
+                  </li>
+                </ul>
+              </div>
+
+
+</body>
+
+
+

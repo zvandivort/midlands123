@@ -1,0 +1,94 @@
+body{
+  background-color:darkslategray;
+  margin: 40px 20px 40px 20px;
+}
+
+h1{
+  text-align: center;
+  font-size: 70px;
+  color: lime;
+  border: 10px solid black;
+  background-color: lightblue;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+
+}
+
+ 
+h2{
+  color:yellow;
+  text-align: left;
+  font-size: 35px;
+  border: 15px solid lime;
+  background-color: blue;
+  padding-top: 25px;
+  padding-right: 30px;
+  padding-bottom: 25px;
+  padding-left: 80px;
+}
+
+h3{
+  color:coral;
+  text-align: right;
+  font-size: 65px;
+  border: 25px solid black;
+  background-color: orangered;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  
+}
+
+p{
+  color:#321BFF;
+  text-align: left;
+  font-size: 30px;
+  background-color:grey;
+  border: 15px dashed lime;
+
+  
+}
+
+h4{
+  color:yellow;
+  text-align: left;
+  font-size: 95px;
+  border: 15px dashed black;
+  background-color: red;
+  padding-top: 67px;
+  padding-right: 30px;
+  padding-bottom: 67px;
+  padding-left: 30px; 
+}
+h5{
+  color:#BE1BFF;
+  text-align: center;
+  font-size: 100px;
+  border: 30px dashed peru;
+  background-color: gray;
+  padding-top: 15px;
+  padding-right:75px;
+  padding-bottom:15px;
+  padding-left:75px;
+}
+
+
+h6{
+  color:rgba(27, 255, 236, 0.51);
+  text-align: center;
+  font-size: 50px;
+  border: 30px dashed #FF2FC1;
+  background-color: #808080;
+  padding-top: 15px;
+  padding-right:70px;
+  padding-bottom:15px;
+  padding-left:70px;
+}
+
+a:link{
+  margin-top: 50px;
+
+}
